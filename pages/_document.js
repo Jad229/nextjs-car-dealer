@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="/styles.css" />
         </Head>
-        <body>
+        <body className="bg-slate-800">
           <Main />
           <NextScript />
         </body>
