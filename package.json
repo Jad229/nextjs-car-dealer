@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-car-dealer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jad229/nextjs-car-dealer.git"
+  },
+  "author": "Justin Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jad229/nextjs-car-dealer/issues"
+  },
+  "homepage": "https://github.com/Jad229/nextjs-car-dealer#readme",
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
