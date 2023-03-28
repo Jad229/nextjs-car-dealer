@@ -1,10 +1,13 @@
+"use client";
+
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false); //initial hamburger menu state is set to false
+
   return (
     <div>
       <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 border-b border-amber-400">
