@@ -19,7 +19,7 @@ function HomePage() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
             asperiores beatae, error est ex explicabo.
           </p>
-          <div className="flex justify-center">
+          <div className="invisible md:visible flex justify-center">
             <p className="text-white px-3">Get in touch</p>
             <button
               type="button"
