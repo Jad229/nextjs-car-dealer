@@ -13,6 +13,10 @@ module.exports = {
       backgroundImage: {
         "hero-image": "url('/images/porsche-hero.png')",
       },
+      colors: {
+        carbon: "#232931",
+        grey: "#393E46",
+      },
     },
   },
   plugins: [],
