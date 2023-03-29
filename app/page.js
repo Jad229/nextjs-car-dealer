@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import MobileCTA from "./MobileCTA";
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ function HomePage() {
               {">"}
             </button>
           </div>
+          <MobileCTA />
         </div>
       </div>
     </div>
