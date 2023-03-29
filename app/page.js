@@ -19,15 +19,6 @@ function HomePage() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
             asperiores beatae, error est ex explicabo.
           </p>
-          <div className="invisible md:visible flex justify-center">
-            <p className="text-white px-3">Get in touch</p>
-            <button
-              type="button"
-              className="button rounded-full bg-amber-400 p-2"
-            >
-              {">"}
-            </button>
-          </div>
           <MobileCTA />
         </div>
       </div>
