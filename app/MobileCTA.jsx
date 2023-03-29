@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MobileCTA() {
   return (
-    <div className="flex justify-center md:invisible">
+    <div className="flex justify-center md:hidden">
       <p className="text-white px-3 text-lg my-auto font-extrabold">
         Get in touch
       </p>
