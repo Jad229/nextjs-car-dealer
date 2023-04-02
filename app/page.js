@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HomeHero from "../components/Home/HomeHero";
+import HomeHero from "../components/Home/HeroSection";
 import Navbar from "../components/Navbar";
 
 function HomePage() {
