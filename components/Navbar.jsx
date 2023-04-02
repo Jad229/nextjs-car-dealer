@@ -20,14 +20,14 @@ function Navbar() {
               id="navbar-links"
               className={`${
                 isNavOpen ? "flex" : "hidden"
-              } md:flex space-x-4 text-amber-400`}
+              } lg:flex space-x-4 text-amber-400`}
               style={{ transition: "height 0.3s ease-in-out" }}
             >
               <a href="#">Garage</a>
               <a href="#">About</a>
               <a href="#">Contact</a>
             </div>
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <button onClick={() => setIsNavOpen(!isNavOpen)}>
                 <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} />
               </button>
