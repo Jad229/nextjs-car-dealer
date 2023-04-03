@@ -36,7 +36,10 @@ const FEATURED_CARS = [
 
 export default function FeaturedCard() {
   return (
-    <section id="feature-section" className="mx-auto px-10 my-10">
+    <section
+      id="feature-section"
+      className="mx-auto py-10 mb-10 border-t-4 border-amber-400"
+    >
       <h1 className="text-center font-bold text-4xl text-amber-400">
         FEATURED CARS
         <hr className="w-6 h-1 mx-auto my-4 bg-white border-0 rounded"></hr>

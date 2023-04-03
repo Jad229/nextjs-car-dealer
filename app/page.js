@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import FeatureSection from "../components/Home/FeatureSection";
 import HomeSection from "../components/Home/HeroSection";
 import Navbar from "../components/Navbar";
@@ -12,6 +13,7 @@ function HomePage() {
       <Navbar />
       <HomeSection />
       <FeatureSection />
+      <Footer />
     </div>
   );
 }
