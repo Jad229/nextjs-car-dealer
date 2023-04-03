@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Jad229/nextjs-car-dealer/issues"
   },
-  "homepage": "https://github.com/Jad229/nextjs-car-dealer#readme",
+  "homepage": "https://github.com/Jad229/nextjs-car-dealer",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
