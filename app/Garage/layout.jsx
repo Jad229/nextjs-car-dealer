@@ -1,4 +1,4 @@
-import "../styles/main.css";
+import "../../styles/main.css";
 
 export default function RootLayout(props) {
   const { children } = props;
@@ -6,7 +6,6 @@ export default function RootLayout(props) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="/styles.css" />
       </head>
       <body className="bg-carbon overflow-x-hidden">{children}</body>
     </html>
