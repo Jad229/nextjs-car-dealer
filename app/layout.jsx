@@ -8,7 +8,7 @@ export default function RootLayout(props) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body className="bg-carbon">{children}</body>
+      <body className="bg-carbon overflow-x-hidden">{children}</body>
     </html>
   );
 }

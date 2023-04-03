@@ -41,7 +41,7 @@ export default function FeaturedCard() {
         FEATURED CARS
         <hr className="w-6 h-1 mx-auto my-4 bg-white border-0 rounded"></hr>
       </h1>
-      <div className="grid grid-flow-col justify-center items-center gap-10 mx-auto">
+      <div className="flex flex-row overflow-x-auto space-x-10 lg:justify-center items-center mx-auto">
         {FEATURED_CARS.map((car, idx) => {
           return (
             <div
