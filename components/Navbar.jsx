@@ -24,7 +24,7 @@ function Navbar() {
               } lg:flex space-x-4 text-amber-400`}
               style={{ transition: "height 0.3s ease-in-out" }}
             >
-              <Link to="/Garage">Garage</Link>
+              <Link href="/Garage">Garage</Link>
             </div>
             <div className="lg:hidden">
               <button onClick={() => setIsNavOpen(!isNavOpen)}>
