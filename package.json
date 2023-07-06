@@ -1,20 +1,18 @@
 {
-  "name": "server",
+  "name": "nextjs-car-dealer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "server": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.3.1"
-  },
-  "devDependencies": {
+    "mongoose": "^7.3.2",
     "nodemon": "^2.0.22"
   }
 }
