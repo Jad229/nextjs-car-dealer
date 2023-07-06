@@ -2,6 +2,7 @@
 
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 import { useEffect, useState } from "react";
 
@@ -23,9 +24,7 @@ function Navbar() {
               } lg:flex space-x-4 text-amber-400`}
               style={{ transition: "height 0.3s ease-in-out" }}
             >
-              <a href="#">Garage</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+              <Link href="/Garage">Garage</Link>
             </div>
             <div className="lg:hidden">
               <button onClick={() => setIsNavOpen(!isNavOpen)}>

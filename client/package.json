@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "repository": {
     "type": "git",
@@ -18,14 +19,15 @@
   "bugs": {
     "url": "https://github.com/Jad229/nextjs-car-dealer/issues"
   },
-  "homepage": "https://github.com/Jad229/nextjs-car-dealer#readme",
+  "homepage": "https://github.com/Jad229/nextjs-car-dealer",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "^13.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "@types/node": "18.15.10",
