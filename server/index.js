@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
 const connectDB = require("./config/db");
+const cors = require("cors");
 
 // connect to mongodb
 connectDB();
@@ -11,6 +12,7 @@ const app = express();
 // middleware to parse body data
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cors());
 
 // redirect routes to route handlers
 app.use("/api/cars", require("./routes/carRoutes"));
