@@ -1,7 +1,7 @@
 export default function CarCard({ car }) {
   return (
-    <div className="bg-stone-800 rounded p-4 shadow-xl max-w-80">
-      <div className="w-80">
+    <div className="bg-stone-800 rounded p-4 shadow-xl w-80">
+      <div className="mx-auto">
         <div className="w-full h-full cursor-pointer">
           <img
             src={car?.image}
