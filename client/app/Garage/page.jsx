@@ -1,7 +1,9 @@
 "use client";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import CarCard from "../../components/CarCard";
 import Navbar from "../../components/Navbar";
+import MobileSearchFilter from "./MobileSearchFilter";
 export default function Garage() {
   const [cars, setCars] = useState([]);
 
@@ -18,21 +20,13 @@ export default function Garage() {
     fetchCars();
   }, []);
 
-  const carCards = cars.map((car, idx) => (
-    <div key={idx}>
-      <p>{car.make}</p>
-      <p>{car.model}</p>
-      <p>{car.year}</p>
-      <p>{car.price}</p>
-      <p>{car.description}</p>
-    </div>
-  ));
+  const carCards = cars.map((car, idx) => <CarCard key={idx} car={car} />);
 
   return (
     <div>
       <Navbar />
-      <div className="mt-24 flex ">
-        <aside className="garage--search">Search Inventory Area here</aside>
+      <div className="mt-24 flex-column p-4">
+        <MobileSearchFilter />
         <section className="garage--inventory">{carCards}</section>
       </div>
     </div>
